@@ -1,4 +1,4 @@
-# YanSnippets.vim
+# snippets-for-vim
 
 ## Introduction
 
@@ -14,8 +14,10 @@ Plugin 'SirVer/ultisnips'
 
 ## License
 
-This is a free software, with [the GNU General Public License Version 3][3].
+This is under the [MIT License][3].
+
+©  2015 yanqd0@gmail.com
 
 [1]: https://github.com/SirVer/ultisnips
 [2]: https://github.com/VundleVim/Vundle.vim
-[3]: http://www.gnu.org/licenses/gpl-3.0.html
+[3]: http://choosealicense.com/licenses/mit/
