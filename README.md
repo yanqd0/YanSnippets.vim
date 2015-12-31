@@ -25,6 +25,9 @@ Plugin 'SirVer/ultisnips'
 | ife        | `if () {} else () {}` block            |
 | ifi        | `if () {} else if () {}` block         |
 | ifie       | `if () {} else if () {} else {}` block |
+| TODO       | `// TODO` comment                      |
+| FIXME      | `// FIXME` comment                     |
+| XXX        | `// XXX` comment                       |
 
 ## License
 
