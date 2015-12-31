@@ -29,6 +29,14 @@ Plugin 'SirVer/ultisnips'
 | FIXME      | `// FIXME` comment                     |
 | XXX        | `// XXX` comment                       |
 
+### snippets
+
+| Trigger | Description         |
+| :------ | :----------         |
+| snip    | Add a new snippet.  |
+| glob    | Add a global block. |
+
+
 ## License
 
 This is under the [MIT License][3].
