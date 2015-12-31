@@ -4,12 +4,22 @@
 
 This is a collection of my personal general snippets in Vim.
 
-## Dependency
+## Install
 
-Make sure the Vim plug-in [UltiSnips][1] is installed and accessable in Vim editor. If you use [Vundle.vim][2], it like this:
+Make sure the Vim plug-in [UltiSnips][1] is installed and accessable in your Vim editor. If you use [Vundle.vim][2], it is like this:
 
 ```VimL
 Plugin 'SirVer/ultisnips'
+Plugin 'yanqd0/snippets-for-vim'
+```
+
+`UltiSnips/` is the default path of [UltiSnips][1]. If you changed that, make sure `UltiSnips/` is always included in your `vimrc`.
+
+```VimL
+let g:UltiSnipsSnippetDirectories = [
+            \ "your_personal_snippets_directory",
+            \ "UltiSnips"
+            \ ]
 ```
 
 ## Content
