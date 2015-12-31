@@ -12,6 +12,20 @@ Make sure the Vim plug-in [UltiSnips][1] is installed and accessable in Vim edit
 Plugin 'SirVer/ultisnips'
 ```
 
+## Content
+
+### Java
+
+| Trigger    | Description                            |
+| :------    | :----------                            |
+| helloworld | A basic "Hello world!"                 |
+| nclass     | A public class, named after file.      |
+| iclass     | A inner class.                         |
+| if         | `if () {}` block                       |
+| ife        | `if () {} else () {}` block            |
+| ifi        | `if () {} else if () {}` block         |
+| ifie       | `if () {} else if () {} else {}` block |
+
 ## License
 
 This is under the [MIT License][3].
