@@ -13,6 +13,11 @@ public class `!v expand("%:t:r")` {
 endsnippet
 
 snippet nclass "A new public class" mb
+/**
+ * ${1:Description of this class.}
+ *
+ * @author `echo $USER`
+ */
 public final class `!v expand("%:t:r")` {
 
 	public `!v expand("%:t:r")`() {
@@ -23,6 +28,11 @@ public final class `!v expand("%:t:r")` {
 endsnippet
 
 snippet iclass "A inner class" mb
+/**
+ * ${1:Description of this class.}
+ *
+ * @author `echo $USER`
+ */
 class ${1:ClassName} {
 
 	protected ${1/(\w+).*/$1/}() {
@@ -42,7 +52,7 @@ endsnippet
 
 snippet ife "`if else` block" b
 if (${1:boolean}) {
-	${2:${VISUAL:\/\/ TODO: if $1 then...}}
+	${2:${VISUAL:\/\/ TODO: if then...}}
 } else {
 	${3:// TODO: else then...}
 }
@@ -50,7 +60,7 @@ endsnippet
 
 snippet ifi "`if elif` block" b
 if (${1:boolean}) {
-	${2:${VISUAL:\/\/ TODO: if $1 then...}}
+	${2:${VISUAL:\/\/ TODO: if then...}}
 } else if (${3:boolean}) {
 	${4:// TODO: else if $3 then...}
 }
@@ -58,7 +68,7 @@ endsnippet
 
 snippet ifie "`if elif else` block" b
 if (${1:boolean}) {
-	${2:${VISUAL:\/\/ TODO: if $1 then...}}
+	${2:${VISUAL:\/\/ TODO: if then...}}
 } else if (${3:boolean}) {
 	${4:// TODO: else if $3 then...}
 } else {
