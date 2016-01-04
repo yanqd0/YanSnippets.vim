@@ -77,6 +77,34 @@ if (${1:boolean}) {
 endsnippet
 ###
 
+# try
+snippet tryc "`try catch` block" b
+try {
+	${1:${VISUAL:\/\/ TODO: try block}}
+} catch(${2:Exception} e) {
+	${3:// TODO: Handle exceptions.}
+}
+endsnippet
+
+snippet tryf "`try finally` block" b
+try {
+	${1:${VISUAL:\/\/ TODO: try block}}
+} finally {
+	${2:// TODO: Do something before leaving.}
+}
+endsnippet
+
+snippet trycf "`try catch finally` block" b
+try {
+	${1:${VISUAL:\/\/ TODO: try block}}
+} catch(${2:Exception} e) {
+	${3:// TODO: Handle exceptions.}
+} finally {
+	${4:// TODO: Do something before leaving.}
+}
+endsnippet
+###
+
 # comment
 snippet TODO "Add a TODO" b
 // TODO: ${1:Something to be done}, since `!v strftime("%Y-%m-%d")`
