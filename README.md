@@ -38,6 +38,7 @@ let g:UltiSnipsSnippetDirectories = [
 | tryc       | `try {} catch() {}` block              |
 | tryf       | `try {} finally {}` block              |
 | trycf      | `try {} catch() {} finally {}` block   |
+| sync       | `synchronized () {}` block             |
 | TODO       | `// TODO` comment                      |
 | FIXME      | `// FIXME` comment                     |
 | XXX        | `// XXX` comment                       |

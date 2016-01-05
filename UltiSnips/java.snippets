@@ -105,6 +105,14 @@ try {
 endsnippet
 ###
 
+# synchronized {{{
+snippet sync "`synchronized` block" b
+synchronized (${1:Lock}) {
+	${2:${VISUAL:\/\/ TODO: synchronized block}}
+}
+endsnippet
+###
+
 # comment
 snippet TODO "Add a TODO" b
 // TODO: ${1:Something to be done}, since `!v strftime("%Y-%m-%d")`
