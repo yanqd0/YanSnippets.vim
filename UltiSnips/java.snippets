@@ -6,9 +6,16 @@ snippet helloworld "A 'Hello world!' demo" mb
  * @author `echo $USER`
  */
 public class `!v expand("%:t:r")` {
+
+	/**
+	 * The main function of Java, which is the root of execution.
+	 *
+	 * @param args The arguments when executed outside.
+	 */
 	public static void main(String[] args) {
 		System.out.println("Hello world!");
 	}
+
 }
 endsnippet
 
