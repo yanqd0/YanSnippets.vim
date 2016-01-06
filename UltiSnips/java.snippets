@@ -84,6 +84,20 @@ if (${1:boolean}) {
 endsnippet
 ###
 
+# while
+snippet do "`do while` block" b
+do {
+	${1:${VISUAL:\/\/ TODO: do...while}}
+} while (${2:boolean});
+endsnippet
+
+snippet while "`while` block" b
+while (${1:boolean}) {
+	${2:${VISUAL:\/\/ TODO: while do...}}
+}
+endsnippet
+###
+
 # try
 snippet tryc "`try catch` block" b
 try {
