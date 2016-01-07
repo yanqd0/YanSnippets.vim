@@ -84,6 +84,16 @@ if (${1:boolean}) {
 endsnippet
 ###
 
+# swich
+snippet switch "`swich case default` block" b
+switch ($1) {
+	case ${2:CONSTANCE_CASE}:
+		// TODO: case $2:
+	default:
+		// TODO: Handle default situation.
+}
+endsnippet
+
 # while
 snippet do "`do while` block" b
 do {
