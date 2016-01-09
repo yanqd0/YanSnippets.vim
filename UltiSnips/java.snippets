@@ -50,6 +50,19 @@ class ${1:ClassName} {
 endsnippet
 ###
 
+# interface
+snippet ninter "A new interface" b
+/**
+ * ${1:Description of this interface.}
+ *
+ * @author `echo $USER`
+ */
+public interface `!v expand("%:t:r")` {
+	${0:// TODO: Declare at lease 1 interface.}
+}
+endsnippet
+###
+
 # if
 snippet if "`if` block" b
 if (${1:boolean}) {
