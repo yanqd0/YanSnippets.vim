@@ -28,9 +28,9 @@ let g:UltiSnipsSnippetDirectories = [
 
 | Trigger    | Description                            |
 | :------    | :----------                            |
-| helloworld | A basic "Hello world!"                 |
-| nclass     | A public class, named after file.      |
-| iclass     | A inner class.                         |
+| helloworld | A basic "Hello world!" demo            |
+| nclass     | A public class, named after file       |
+| iclass     | A inner class                          |
 | if         | `if () {}` block                       |
 | ife        | `if () {} else () {}` block            |
 | ifi        | `if () {} else if () {}` block         |
@@ -44,6 +44,13 @@ let g:UltiSnipsSnippetDirectories = [
 | TODO       | `// TODO` comment                      |
 | FIXME      | `// FIXME` comment                     |
 | XXX        | `// XXX` comment                       |
+
+### Python
+
+| Trigger    | Description                  |
+| :------    | :----------                  |
+| helloworld | A basic "Hello world!" demo  |
+| #!         | `#!` block, file header      |
 
 ### snippets
 
