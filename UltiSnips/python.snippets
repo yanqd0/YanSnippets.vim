@@ -11,3 +11,24 @@ snippet #! "File header" b
 # -*- coding:utf-8 -*-
 
 endsnippet
+
+# if
+snippet if "`if` block" b
+if $1:
+	${0:${VISUAL:# TODO: if then...}}
+endsnippet
+
+snippet ife "`if else` block" b
+if $1:
+	${2:${VISUAL:# TODO: if then...}}
+else:
+	${3:# TODO: else then...}
+endsnippet
+
+snippet ifi "`if elif` block" b
+if $1:
+	${2:${VISUAL:# TODO: if then...}}
+else:
+	${3:# TODO: else then...}
+endsnippet
+###
