@@ -42,6 +42,18 @@ else:
 endsnippet
 ###
 
+# loop
+snippet while "`while` block" b
+while ${1:True}:
+	${2:${VISUAL:# TODO: while do...}}
+endsnippet
+
+snippet for "`for` block" b
+for $1 in $2:
+	${3:${VISUAL:# TODO: for...}}
+endsnippet
+###
+
 # try
 snippet trye "`try except` block" b
 try:
