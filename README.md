@@ -51,6 +51,7 @@ let g:UltiSnipsSnippetDirectories = [
 | :------    | :----------                 |
 | helloworld | A basic "Hello world!" demo |
 | #!         | `#!` block, file header     |
+| nclass     | A new class                 |
 | if         | `if` block                  |
 | ife        | `if else` block             |
 | ifi        | `if elif` block             |

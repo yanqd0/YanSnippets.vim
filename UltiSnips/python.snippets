@@ -12,6 +12,14 @@ snippet #! "File header" b
 
 endsnippet
 
+# class
+snippet nclass "A new class" b
+class ${1:`!v expand("%:t:r")`}(${2:object}):
+	def __init__(self):
+		${3:# TODO: Override the constructor.}
+endsnippet
+###
+
 # if
 snippet if "`if` block" b
 if $1:
