@@ -55,6 +55,9 @@ let g:UltiSnipsSnippetDirectories = [
 | ife        | `if else` block             |
 | ifi        | `if elif` block             |
 | ifie       | `if elif else` block        |
+| trye       | `try except` block          |
+| tryf       | `try finally` block         |
+| tryef      | `try except finally` block  |
 | todo       | `# TODO` comment            |
 | fixme      | `# FIXME` comment           |
 | xxx        | `# XXX` comment             |
