@@ -47,10 +47,14 @@ let g:UltiSnipsSnippetDirectories = [
 
 ### Python
 
-| Trigger    | Description                  |
-| :------    | :----------                  |
-| helloworld | A basic "Hello world!" demo  |
-| #!         | `#!` block, file header      |
+| Trigger    | Description                 |
+| :------    | :----------                 |
+| helloworld | A basic "Hello world!" demo |
+| #!         | `#!` block, file header     |
+| if         | `if` block                  |
+| ife        | `if else` block             |
+| ifi        | `if elif` block             |
+| ifie       | `if elif else` block        |
 
 ### snippets
 

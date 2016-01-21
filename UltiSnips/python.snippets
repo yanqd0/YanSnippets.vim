@@ -28,7 +28,16 @@ endsnippet
 snippet ifi "`if elif` block" b
 if $1:
 	${2:${VISUAL:# TODO: if then...}}
+elif $3:
+	${4:# TODO: else if $3 then...}
+endsnippet
+
+snippet ifie "`if elif else` block" b
+if $1:
+	${2:${VISUAL:# TODO: if then...}}
+elif $3:
+	${4:# TODO: else if $3 then...}
 else:
-	${3:# TODO: else then...}
+	${5:# TODO: else then...}
 endsnippet
 ###
