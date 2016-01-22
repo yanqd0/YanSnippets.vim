@@ -72,12 +72,17 @@ let g:UltiSnipsSnippetDirectories = [
 | snip    | Add a new snippet.  |
 | glob    | Add a global block. |
 
+### all
+
+| Trigger | Description                   |
+| :------ | :----------                   |
+| MIT     | Add a MIT licenses full text. |
 
 ## License
 
-This is under the [MIT License][3].
+The MIT License ([MIT][3])
 
-©  2015 yanqd0@gmail.com
+Copyright ©  2015 yanqd0@gmail.com
 
 [1]: https://github.com/SirVer/ultisnips
 [2]: https://github.com/VundleVim/Vundle.vim
