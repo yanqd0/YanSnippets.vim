@@ -37,13 +37,14 @@ let g:UltiSnipsSnippetDirectories = [
 | ifie       | `if () {} else if () {} else {}` block |
 | do         | `do {} while ();` block                |
 | while      | `while () {}` block                    |
+| for        | `for () {}` block                      |
 | tryc       | `try {} catch() {}` block              |
 | tryf       | `try {} finally {}` block              |
 | trycf      | `try {} catch() {} finally {}` block   |
 | sync       | `synchronized () {}` block             |
-| TODO       | `// TODO` comment                      |
-| FIXME      | `// FIXME` comment                     |
-| XXX        | `// XXX` comment                       |
+| todo       | `// TODO` comment                      |
+| fixme      | `// FIXME` comment                     |
+| xxx        | `// XXX` comment                       |
 
 ### Python
 
@@ -74,13 +75,13 @@ let g:UltiSnipsSnippetDirectories = [
 
 ### all
 
-| Trigger   | Description                                |
-| :------   | :----------                                |
-| MIT       | Add a MIT License full text.               |
-| Apache2   | Add an Apache License 2.0 full text.       |
-| #Apache2  | Add a # comment header of Apache2 .        |
-| /*Apache2 | Add a /**/ comment header of Apache2 .     |
-| !-Apache2 | Add a <!-- --> comment of header Apache2 . |
+| Trigger   | Description                                  |
+| :------   | :----------                                  |
+| MIT       | Add a MIT License full text.                 |
+| Apache2   | Add an Apache License 2.0 full text.         |
+| #Apache2  | Add a `# comment` header of Apache2 .        |
+| /*Apache2 | Add a `/* comment */` header of Apache2 .    |
+| !-Apache2 | Add a `<!-- comment -->` header of Apache2 . |
 
 ## License
 
