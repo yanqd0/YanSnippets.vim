@@ -83,6 +83,9 @@ let g:UltiSnipsSnippetDirectories = [
 | /*Apache2 | Add a `/* comment */` header of Apache2 .             |
 | !-Apache2 | Add a `<!-- comment -->` header of Apache2 .          |
 | GPLv3     | Add a GNU General Public License Version 3 full text. |
+| #GPLv3    | Add a `# comment` header of GPLv3 .                   |
+| /*GPLv3   | Add a `/* comment */` header of GPLv3 .               |
+| !-GPLv3   | Add a `<!-- comment -->` header of GPLv3 .            |
 
 ## License
 
