@@ -75,13 +75,14 @@ let g:UltiSnipsSnippetDirectories = [
 
 ### all
 
-| Trigger   | Description                                  |
-| :------   | :----------                                  |
-| MIT       | Add a MIT License full text.                 |
-| Apache2   | Add an Apache License 2.0 full text.         |
-| #Apache2  | Add a `# comment` header of Apache2 .        |
-| /*Apache2 | Add a `/* comment */` header of Apache2 .    |
-| !-Apache2 | Add a `<!-- comment -->` header of Apache2 . |
+| Trigger   | Description                                           |
+| :------   | :----------                                           |
+| MIT       | Add a MIT License full text.                          |
+| Apache2   | Add an Apache License 2.0 full text.                  |
+| #Apache2  | Add a `# comment` header of Apache2 .                 |
+| /*Apache2 | Add a `/* comment */` header of Apache2 .             |
+| !-Apache2 | Add a `<!-- comment -->` header of Apache2 .          |
+| GPLv3     | Add a GNU General Public License Version 3 full text. |
 
 ## License
 
