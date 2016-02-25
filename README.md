@@ -93,10 +93,11 @@ let g:UltiSnipsSnippetDirectories = [
 
 ## License
 
-The MIT License ([MIT][3])
+This [repository][0] is under the [MIT License][3].
 
-Copyright ©  2015 yanqd0@gmail.com
+Copyright © 2015 yanqd0@gmail.com
 
+[0]: https://github.com/yanqd0/snippets-for-vim
 [1]: https://github.com/SirVer/ultisnips
 [2]: https://github.com/VundleVim/Vundle.vim
 [3]: http://choosealicense.com/licenses/mit/
