@@ -66,6 +66,13 @@ let g:UltiSnipsSnippetDirectories = [
 | fixme      | `# FIXME` comment           |
 | xxx        | `# XXX` comment             |
 
+### Shell
+
+| Trigger    | Description                 |
+| :------    | :----------                 |
+| helloworld | A basic "Hello world!" demo |
+| #!         | `#!` block, file header     |
+
 ### snippets
 
 | Trigger | Description         |
