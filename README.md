@@ -78,6 +78,9 @@ let g:UltiSnipsSnippetDirectories = [
 | ifie       | `if elif else` block        |
 | case       | `case esac` block           |
 | select     | `select do done` block      |
+| todo       | `# TODO` comment            |
+| fixme      | `# FIXME` comment           |
+| xxx        | `# XXX` comment             |
 
 ### snippets
 

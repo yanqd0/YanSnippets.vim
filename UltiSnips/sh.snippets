@@ -11,7 +11,6 @@ snippet #! "File header" b
 $0
 endsnippet
 
-# if
 snippet if "`if` block" b
 if [[ $1 ]]
 then
@@ -48,7 +47,6 @@ then
 else
 	${5:# TODO: else then...}
 endsnippet
-###
 
 snippet case "`case in` block" b
 case $1 in
@@ -66,3 +64,16 @@ do
 	break;
 done
 endsnippet
+
+snippet todo "Add a TODO" b
+# TODO: ${1:Something to be done}, since `!v strftime("%Y-%m-%d")`
+endsnippet
+
+snippet fixme "Add a FIXME" b
+# FIXME: ${1:Bug description}, since `!v strftime("%Y-%m-%d")`
+endsnippet
+
+snippet xxx "Add a XXX" b
+# XXX: ${1:Something weird or unsure}, since `!v strftime("%Y-%m-%d")`
+endsnippet
+
