@@ -52,9 +52,17 @@ endsnippet
 
 snippet case "`case in` block" b
 case $1 in
-	${2:SOME} )
-		${3:echo TODO: case $2} ;;
+	${2:SOME | THING} )
+		${3:echo TODO: case "$2"} ;;
 	*)
 		${4:echo TODO: Handle default situation.} ;;
 esac
+endsnippet
+
+snippet select "`select` block" b
+select ${1:fname} in ${2:*}
+do
+	${3:echo you picked $fname \($REPLY\)}
+	break;
+done
 endsnippet
