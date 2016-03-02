@@ -10,3 +10,42 @@ snippet #! "File header" b
 
 $0
 endsnippet
+
+# if
+snippet if "`if` block" b
+if [[ $1 ]]
+then
+	${0:${VISUAL:# TODO: if then...}}
+fi
+endsnippet
+
+snippet ife "`if else` block" b
+if [[ $1 ]]
+then
+	${2:${VISUAL:# TODO: if then...}}
+else
+	${3:# TODO: else then...}
+fi
+endsnippet
+
+snippet ifi "`if elif` block" b
+if [[ $1 ]]
+then
+	${2:${VISUAL:# TODO: if then...}}
+elif [[ $3 ]]
+then
+	${4:# TODO: else if $3 then...}
+fi
+endsnippet
+
+snippet ifie "`if elif else` block" b
+if [[ $1 ]]
+then
+	${2:${VISUAL:# TODO: if then...}}
+elif [[ $3 ]]
+then
+	${4:# TODO: else if $3 then...}
+else
+	${5:# TODO: else then...}
+endsnippet
+###
