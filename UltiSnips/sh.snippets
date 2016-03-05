@@ -65,6 +65,27 @@ do
 done
 endsnippet
 
+snippet until "`until` block" b
+until [[ $1 ]]
+do
+	${2:${VISUAL:echo do sth until zero.}}
+done
+endsnippet
+
+snippet while "`while` block" b
+while [[ $1 ]]
+do
+	${2:${VISUAL:echo do sth while zero.}}
+done
+endsnippet
+
+snippet for "`for` block" b
+for ${1:\$file in *}
+do
+	${2:${VISUAL:echo do sth for some cases.}}
+done
+endsnippet
+
 snippet todo "Add a TODO" b
 # TODO: ${1:Something to be done}, since `!v strftime("%Y-%m-%d")`
 endsnippet
