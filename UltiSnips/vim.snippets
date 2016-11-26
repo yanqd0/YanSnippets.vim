@@ -2,6 +2,12 @@ snippet helloworld "A 'Hello world!' demo" b
 echo "Hello world!"
 endsnippet
 
+snippet function "function block" b
+function! ${1:Function}(${2:...})
+	${3:" TODO: Implement the function $1.}
+endfunction
+endsnippet
+
 snippet if "`if` block" b
 if ${1:condition}
 	${2:${VISUAL:" TODO: if then...}}
