@@ -12,6 +12,11 @@ snippet #! "File header" b
 
 endsnippet
 
+snippet main "The __main__ block" b
+if __name__ == '__main__':
+	${1:${VISUAL:# TODO: Do sth when executed.}}
+endsnippet
+
 # class
 snippet class "A new class" b
 class ${1:`!v expand("%:t:r")`}(${2:object}):
