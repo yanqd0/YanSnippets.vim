@@ -1,21 +1,22 @@
 # snippets-for-vim
 
-## Introduction
+[![Release](https://img.shields.io/github/release/yanqd0/vimfiles.svg)][Releases]
 
-This is a collection of my personal general snippets in Vim.
+This is a collection of my personal snippets in Vim.
 
 ## Install
 
-Make sure the Vim plug-in [UltiSnips][1] is installed and accessable in your Vim editor. If you use [Vundle.vim][2], it is like this:
+Make sure the Vim plug-in [SirVer/ultisnips][ultisnips] is installed and accessable in your Vim editor.
+If you use [Vundle.vim][Vundle.vim], it is like this:
 
-```VimL
+```vim
 Plugin 'SirVer/ultisnips'
 Plugin 'yanqd0/snippets-for-vim'
 ```
 
-`UltiSnips/` is the default path of [UltiSnips][1]. If you changed that, make sure `UltiSnips/` is always included in your `vimrc`.
+`UltiSnips` is the default path of [SirVer/ultisnips][ultisnips] If you changed that, make sure `UltiSnips` is always included in your `vimrc`.
 
-```VimL
+```vim
 let g:UltiSnipsSnippetDirectories = [
             \ "your_personal_snippets_directory",
             \ "UltiSnips"
@@ -112,11 +113,12 @@ let g:UltiSnipsSnippetDirectories = [
 
 ## License
 
-This [repository][0] is under the [MIT License][3].
+[![License](https://img.shields.io/github/license/yanqd0/snippets-for-vim.svg)](LICENSE)
 
-Copyright © 2015 yanqd0@gmail.com
+> The MIT License (MIT)
+>
+> Copyright (c) 2016 yanqd0@outlook.com
 
-[0]: https://github.com/yanqd0/snippets-for-vim
-[1]: https://github.com/SirVer/ultisnips
-[2]: https://github.com/VundleVim/Vundle.vim
-[3]: http://choosealicense.com/licenses/mit/
+[Releases]:https://github.com/yanqd0/snippets-for-vim/releases/latest
+[ultisnips]:https://github.com/SirVer/ultisnips
+[Vundle.vim]: https://github.com/VundleVim/Vundle.vim
