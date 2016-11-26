@@ -13,7 +13,7 @@ snippet #! "File header" b
 endsnippet
 
 # class
-snippet nclass "A new class" b
+snippet class "A new class" b
 class ${1:`!v expand("%:t:r")`}(${2:object}):
 	def __init__(self):
 		${3:# TODO: Override the constructor.}
@@ -23,7 +23,8 @@ endsnippet
 # if
 snippet if "`if` block" b
 if $1:
-	${0:${VISUAL:# TODO: if then...}}
+	${2:${VISUAL:# TODO: if then...}}
+$0
 endsnippet
 
 snippet ife "`if else` block" b
@@ -31,6 +32,7 @@ if $1:
 	${2:${VISUAL:# TODO: if then...}}
 else:
 	${3:# TODO: else then...}
+$0
 endsnippet
 
 snippet ifi "`if elif` block" b
@@ -38,6 +40,7 @@ if $1:
 	${2:${VISUAL:# TODO: if then...}}
 elif $3:
 	${4:# TODO: else if $3 then...}
+$0
 endsnippet
 
 snippet ifie "`if elif else` block" b
@@ -47,6 +50,7 @@ elif $3:
 	${4:# TODO: else if $3 then...}
 else:
 	${5:# TODO: else then...}
+$0
 endsnippet
 ###
 
@@ -54,11 +58,13 @@ endsnippet
 snippet while "`while` block" b
 while ${1:True}:
 	${2:${VISUAL:# TODO: while do...}}
+$0
 endsnippet
 
 snippet for "`for` block" b
 for $1 in $2:
 	${3:${VISUAL:# TODO: for...}}
+$0
 endsnippet
 ###
 
@@ -68,6 +74,7 @@ try:
 	${1:${VISUAL:# TODO: try block}}
 except$2:
 	${3:# TODO: Handle exceptions.}
+$0
 endsnippet
 
 snippet tryf "`try finally` block" b
@@ -75,6 +82,7 @@ try:
 	${1:${VISUAL:# TODO: try block}}
 finally:
 	${2:# TODO: Do something before leaving.}
+$0
 endsnippet
 
 snippet tryef "`try catch finally` block" b
@@ -84,6 +92,7 @@ except$2:
 	${3:# TODO: Handle exceptions.}
 finally:
 	${4:# TODO: Do something before leaving.}
+$0
 endsnippet
 ###
 
