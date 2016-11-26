@@ -19,46 +19,39 @@ public class `!v expand("%:t:r")` {
 }
 endsnippet
 
-snippet nclass "A new public class" mb
+snippet class "A new public class" mb
 /**
  * ${1:Description of this class.}
  *
  * @author `echo $USER`
  */
-public final class `!v expand("%:t:r")` {
-
+public final class ${2:`!v expand("%:t:r")`} {
 	public `!v expand("%:t:r")`() {
-		${0:// TODO: Default constructor.}
+		${3:// TODO: Default constructor.}
 	}
 
+	$0
 }
 endsnippet
 
 snippet iclass "A inner class" mb
-/**
- * ${2:Description of this class.}
- *
- * @author `echo $USER`
- */
 class ${1:ClassName} {
-
-	protected ${1/(\w+).*/$1/}() {
-		${0:// TODO: Default constructor.}
+	${1/(\w+).*/$1/}() {
+		${2:// TODO: Default constructor.}
 	}
-
 }
 endsnippet
 ###
 
 # interface
-snippet ninter "A new interface" b
+snippet interface "A new interface" b
 /**
  * ${1:Description of this interface.}
  *
  * @author `echo $USER`
  */
-public interface `!v expand("%:t:r")` {
-	${0:// TODO: Declare at lease 1 interface.}
+public interface ${2:`!v expand("%:t:r")`} {
+	${3:// TODO: Declare at lease 1 interface.}
 }
 endsnippet
 ###
@@ -66,8 +59,9 @@ endsnippet
 # if
 snippet if "`if` block" b
 if (${1:boolean}) {
-	${0:${VISUAL:\/\/ TODO: if then...}}
+	${2:${VISUAL:\/\/ TODO: if then...}}
 }
+$0
 endsnippet
 
 snippet ife "`if else` block" b
@@ -76,6 +70,7 @@ if (${1:boolean}) {
 } else {
 	${3:// TODO: else then...}
 }
+$0
 endsnippet
 
 snippet ifi "`if elif` block" b
@@ -84,6 +79,7 @@ if (${1:boolean}) {
 } else if (${3:boolean}) {
 	${4:// TODO: else if $3 then...}
 }
+$0
 endsnippet
 
 snippet ifie "`if elif else` block" b
@@ -94,6 +90,7 @@ if (${1:boolean}) {
 } else {
 	${5:// TODO: else then...}
 }
+$0
 endsnippet
 ###
 
@@ -105,6 +102,7 @@ switch ($1) {
 	default:
 		// TODO: Handle default situation.
 }
+$0
 endsnippet
 ###
 
@@ -113,6 +111,7 @@ snippet for "`for` block" b
 for ($1) {
 	${2:${VISUAL:\/\/ TODO: for...}}
 }
+$0
 endsnippet
 ###
 
@@ -121,12 +120,14 @@ snippet do "`do while` block" b
 do {
 	${1:${VISUAL:\/\/ TODO: do...while}}
 } while (${2:boolean});
+$0
 endsnippet
 
 snippet while "`while` block" b
 while (${1:boolean}) {
 	${2:${VISUAL:\/\/ TODO: while do...}}
 }
+$0
 endsnippet
 ###
 
@@ -137,6 +138,7 @@ try {
 } catch (${2:Exception} e) {
 	${3:// TODO: Handle exceptions.}
 }
+$0
 endsnippet
 
 snippet tryf "`try finally` block" b
@@ -145,6 +147,7 @@ try {
 } finally {
 	${2:// TODO: Do something before leaving.}
 }
+$0
 endsnippet
 
 snippet trycf "`try catch finally` block" b
@@ -155,6 +158,7 @@ try {
 } finally {
 	${4:// TODO: Do something before leaving.}
 }
+$0
 endsnippet
 ###
 
@@ -163,6 +167,7 @@ snippet sync "`synchronized` block" b
 synchronized (${1:Lock}) {
 	${2:${VISUAL:\/\/ TODO: synchronized block}}
 }
+$0
 endsnippet
 ###
 
