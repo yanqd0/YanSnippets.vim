@@ -21,8 +21,9 @@ endsnippet
 snippet if "`if` block" b
 if [[ $1 ]]
 then
-	${0:${VISUAL:# TODO: if then...}}
+	${2:${VISUAL:# TODO: if then...}}
 fi
+$0
 endsnippet
 
 snippet ife "`if else` block" b
@@ -32,6 +33,7 @@ then
 else
 	${3:# TODO: else then...}
 fi
+$0
 endsnippet
 
 snippet ifi "`if elif` block" b
@@ -42,6 +44,7 @@ elif [[ $3 ]]
 then
 	${4:# TODO: else if $3 then...}
 fi
+$0
 endsnippet
 
 snippet ifie "`if elif else` block" b
@@ -53,6 +56,8 @@ then
 	${4:# TODO: else if $3 then...}
 else
 	${5:# TODO: else then...}
+fi
+$0
 endsnippet
 
 snippet case "`case in` block" b
@@ -62,6 +67,7 @@ case $1 in
 	*)
 		${4:echo TODO: Handle default situation.} ;;
 esac
+$0
 endsnippet
 
 snippet select "`select` block" b
@@ -70,6 +76,7 @@ do
 	${3:echo you picked $fname \($REPLY\)}
 	break;
 done
+$0
 endsnippet
 
 snippet until "`until` block" b
@@ -77,6 +84,7 @@ until [[ $1 ]]
 do
 	${2:${VISUAL:echo do sth until zero.}}
 done
+$0
 endsnippet
 
 snippet while "`while` block" b
@@ -84,6 +92,7 @@ while [[ $1 ]]
 do
 	${2:${VISUAL:echo do sth while zero.}}
 done
+$0
 endsnippet
 
 snippet for "`for` block" b
@@ -91,6 +100,7 @@ for ${1:\$file in *}
 do
 	${2:${VISUAL:echo do sth for some cases.}}
 done
+$0
 endsnippet
 
 snippet todo "Add a TODO" b

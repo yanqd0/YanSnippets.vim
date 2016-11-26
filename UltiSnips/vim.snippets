@@ -4,8 +4,9 @@ endsnippet
 
 snippet if "`if` block" b
 if ${1:condition}
-	${0:${VISUAL:" TODO: if then...}}
+	${2:${VISUAL:" TODO: if then...}}
 endif
+$0
 endsnippet
 
 snippet ife "`if else` block" b
@@ -14,6 +15,7 @@ if ${1:condition}
 else
 	${3:" TODO: else then...}
 endif
+$0
 endsnippet
 
 snippet ifi "`if elif` block" b
@@ -22,6 +24,7 @@ if $1
 elseif $3
 	${4:" TODO: else if $3 then...}
 endfi
+$0
 endsnippet
 
 snippet ifie "`if elif else` block" b
@@ -31,5 +34,7 @@ elseif $3
 	${4:" TODO: else if $3 then...}
 else
 	${5:" TODO: else then...}
+endif
+$0
 endsnippet
 
