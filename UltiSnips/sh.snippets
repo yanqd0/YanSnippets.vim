@@ -11,6 +11,13 @@ snippet #! "File header" b
 $0
 endsnippet
 
+snippet function "function block" b
+function ${1:name} {
+	${2:${VISUAL:# TODO: Implement the fuction.}}
+}
+$0
+endsnippet
+
 snippet if "`if` block" b
 if [[ $1 ]]
 then
