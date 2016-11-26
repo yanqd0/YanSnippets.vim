@@ -25,13 +25,28 @@ let g:UltiSnipsSnippetDirectories = [
 
 ## Content
 
+### Vim
+
+| Trigger    | Description                 |
+| :------    | :----------                 |
+| helloworld | A basic "Hello world!" demo |
+| function   | A `function` block          |
+| if         | `if` block                  |
+| ife        | `if else` block             |
+| ifi        | `if elseif` block             |
+| ifie       | `if elseif else` block        |
+| todo       | `# TODO` comment            |
+| fixme      | `# FIXME` comment           |
+| xxx        | `# XXX` comment             |
+
 ### Java
 
 | Trigger    | Description                            |
 | :------    | :----------                            |
 | helloworld | A basic "Hello world!" demo            |
-| nclass     | A public class, named after file       |
+| class      | A public class, named after file       |
 | iclass     | A inner class                          |
+| interface  | A interface                            |
 | if         | `if () {}` block                       |
 | ife        | `if () {} else () {}` block            |
 | ifi        | `if () {} else if () {}` block         |
@@ -53,7 +68,8 @@ let g:UltiSnipsSnippetDirectories = [
 | :------    | :----------                 |
 | helloworld | A basic "Hello world!" demo |
 | #!         | `#!` block, file header     |
-| nclass     | A new class                 |
+| main       | __main__ block              |
+| class      | A new class                 |
 | if         | `if` block                  |
 | ife        | `if else` block             |
 | ifi        | `if elif` block             |
@@ -73,6 +89,7 @@ let g:UltiSnipsSnippetDirectories = [
 | :------    | :----------                 |
 | helloworld | A basic "Hello world!" demo |
 | #!         | `#!` block, file header     |
+| function   | A `function` block          |
 | if         | `if` block                  |
 | ife        | `if else` block             |
 | ifi        | `if elif` block             |
