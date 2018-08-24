@@ -1,5 +1,6 @@
 snippet helloworld "A 'Hello world!' demo" b
 #!/usr/bin/env ${1:bash}
+set -euxo pipefail
 
 echo "Hello world!"
 
@@ -7,6 +8,7 @@ endsnippet
 
 snippet #! "File header" b
 #!/usr/bin/env ${1:bash}
+set -euxo pipefail
 
 $0
 endsnippet
