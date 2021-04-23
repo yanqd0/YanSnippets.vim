@@ -1,9 +1,22 @@
 snippet helloworld "A 'Hello world!' demo" b
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding:utf-8 -*-
+"""A hello world module demo."""
+import sys
+
+
+def main():
+    """Print hello world message to stdout."""
+    print('Hello world!')
+
 
 if __name__ == '__main__':
-	print "Hello world!"
+    main()
+    sys.exit(0)
+endsnippet
+
+snippet doc "doc" b
+"""$0"""
 endsnippet
 
 snippet #! "File header" b
