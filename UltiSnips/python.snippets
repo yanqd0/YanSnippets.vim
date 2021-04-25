@@ -15,8 +15,14 @@ if __name__ == '__main__':
     sys.exit(0)
 endsnippet
 
-snippet doc "doc" b
-"""$0"""
+snippet doc "docstring" b
+"""${0:${VISUAL}}"""
+endsnippet
+
+snippet code "Markdown Code block" b
+\`\`\`${1:lang}
+${2:${VISUAL}}
+\`\`\`
 endsnippet
 
 snippet #! "File header" b
